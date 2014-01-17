@@ -6,7 +6,9 @@
 
     <name>MapKit</name>
 
-    <asset src="www/MapKit.js" target="js/MapKit.js" />
+    <js-module src="www/MapKit.js" name="mapKit">
+        <clobbers target="mapKit" />
+    </js-module>
     <asset src="www/map-close-button.png" target="img/map-close-button.png" />
 
     <!-- android -->
